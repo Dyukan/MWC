@@ -11,5 +11,5 @@
   src: url("./fonts/Sweet\ Romance.ttf") format("truetype");
 }
 #styled_text_area {
-  font-size: 6em;
+  font-size: calc(15px + 0.390625vw);
 }
