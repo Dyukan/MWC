@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Angelia";
+  src: url(/fonts/Angelia\ Beauty.ttf);
+}
+
+styled_text_area {
+  font-family: "Angelia";
+  font-size: 6em;
+}
