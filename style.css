@@ -2,8 +2,15 @@
   font-family: "Angelia";
   src: url(/fonts/Angelia\ Beauty.ttf);
 }
-
-styled_text_area {
-  font-family: "Angelia";
+@font-face {
+  font-family: "Greatings";
+  src: url(/fonts/Greating.ttf);
+}
+@font-face {
+  font-family: "Romance";
+  src: url(/fonts/Sweet\ Romance.ttf);
+}
+#styled_text_area {
+  font-family: "Romance";
   font-size: 6em;
 }
