@@ -1,16 +1,15 @@
 @font-face {
   font-family: "Angelia";
-  src: url(/fonts/Angelia\ Beauty.ttf);
+  src: url("./fonts/Angelia\ Beauty.ttf") format("truetype");
 }
 @font-face {
   font-family: "Greatings";
-  src: url(/fonts/Greating.ttf);
+  src: url("./fonts/Greating.ttf") format("truetype");
 }
 @font-face {
   font-family: "Romance";
-  src: url(/fonts/Sweet\ Romance.ttf);
+  src: url("./fonts/Sweet\ Romance.ttf") format("truetype");
 }
 #styled_text_area {
-  font-family: "Romance";
   font-size: 6em;
 }
