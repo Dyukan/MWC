@@ -3,58 +3,72 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>MargisWorldCreations</title>
+    <title>SchriftartPreview</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h3>Hallo Rita das ist eine Rohfassung</h1>
+    <div class="container">
+      <span class="choose" id="choose">Wähle eine Schriftart</span>
+
+      <div class="dropdown">
+        <div class="select">
+          <span>Klick mich</span>
+          <i class="fa fa-chevron-left"></i>
+        </div>
+        <input type="hidden" name="Schriftart" />
+        <ul class="dropdown-menu">
+          <li value="Angelia" id="Angelia">1. Schriftart</li>
+          <li value="Greatings" id="Greatings">2. Schriftart</li>
+          <li value="Romance" id="Romance">3. Schriftart</li>
+        </ul>
+      </div>
+
+      <span class="msg"></span>
+    </div>
+
     <div class="container text-center mt-4">
       <div class="row">
-        <div class="col-sm-6 border">
-            <div class="mb-3 mt-3">
-          <select class="form-select-lg" id="fonts-select" aria-label="Default select example">
-            <option selected> Wähle eine Schriftart</option>
-            <option value="Angelia">1</option>
-            <option value="Greatings">2</option>
-            <option value="Romance">3</option>
-          </select>
-        </div>
-        </div>
-        <div class="col-sm-6 border">
-            <div class="mb-3 mt-3">
-              <input
-                class="form-control form-control-lg"
-                type="text"
-                placeholder="Type here..."
-                id="input_text"
-                aria-label=".form-control-lg example"
-              />
-            </div>
+        <div class="col-sm-12">
+          <div class="group">
+            <input type="text" id="input_text" required />
+            <span class="highlight"></span>
+            <span class="bar"></span>
+            <label>Dein Text</label>
           </div>
+        </div>
       </div>
       <div class="row">
-
-        <div class="col-sm-12 border">
+        <div class="col-sm-12">
           <div class="mb-5 mt-5">
-          <input
-            class="form-control form-control-lg"
-            type="text"
-            placeholder=""
-            aria-label=".form-control-lg example"
-            id="styled_text_area"
-            disabled
-            readonly
-          />
-        </div>
+            <input
+              class="form-control form-control-lg"
+              type="text"
+              placeholder=""
+              aria-label=".form-control-lg example"
+              id="styled_text_area"
+              disabled
+              readonly
+            />
+          </div>
         </div>
       </div>
     </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"
+      integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
