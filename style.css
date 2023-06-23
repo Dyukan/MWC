@@ -34,12 +34,12 @@
   font-family: sans-serif;
 }
 body {
-  background: rgb(131, 58, 180);
+  background: rgb(2, 0, 36);
   background: linear-gradient(
     90deg,
-    rgba(131, 58, 180, 1) 0%,
-    rgba(179, 29, 253, 1) 50%,
-    rgba(252, 176, 69, 1) 100%
+    rgba(2, 0, 36, 1) 0%,
+    rgba(231, 105, 203, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
   );
 }
 span.msg,
