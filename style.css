@@ -41,7 +41,7 @@ body {
   );
 }
 section {
-  min-height: calc(100vh - 24.844px);
+  min-height: calc(100vh - 47px);
 }
 footer {
   text-align: center;
