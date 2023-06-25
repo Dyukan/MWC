@@ -40,6 +40,9 @@ body {
     rgba(0, 212, 255, 1) 100%
   );
 }
+section {
+  min-height: calc(100vh - 24.844px);
+}
 footer {
   text-align: center;
   background-color: #999;

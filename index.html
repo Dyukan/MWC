@@ -17,51 +17,53 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <span class="choose" id="choose">Wähle eine Schriftart</span>
+    <section>
+      <div class="container">
+        <span class="choose" id="choose">Wähle eine Schriftart</span>
 
-      <div class="dropdown">
-        <div class="select">
-          <span>Klick mich</span>
-          <i class="fa fa-chevron-left"></i>
+        <div class="dropdown">
+          <div class="select">
+            <span>Klick mich</span>
+            <i class="fa fa-chevron-left"></i>
+          </div>
+          <input type="hidden" name="Schriftart" />
+          <ul class="dropdown-menu">
+            <li value="Angelia" id="Angelia">1. Schriftart</li>
+            <li value="Greatings" id="Greatings">2. Schriftart</li>
+            <li value="Romance" id="Romance">3. Schriftart</li>
+          </ul>
         </div>
-        <input type="hidden" name="Schriftart" />
-        <ul class="dropdown-menu">
-          <li value="Angelia" id="Angelia">1. Schriftart</li>
-          <li value="Greatings" id="Greatings">2. Schriftart</li>
-          <li value="Romance" id="Romance">3. Schriftart</li>
-        </ul>
+
+        <span class="msg"></span>
       </div>
 
-      <span class="msg"></span>
-    </div>
+      <div class="container text-center mt-5">
+        <div class="mb-3">
+          <input
+            placeholder="..."
+            type="text"
+            class="form-control"
+            id="input_text"
+          />
+        </div>
 
-    <div class="container text-center mt-5">
-      <div class="mb-3">
-        <input
-          placeholder="..."
-          type="text"
-          class="form-control"
-          id="input_text"
-        />
-      </div>
-
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="mb-5 mt-5">
-            <input
-              class="form-control form-control-lg"
-              type="text"
-              placeholder=""
-              aria-label=".form-control-lg example"
-              id="styled_text_area"
-              disabled
-              readonly
-            />
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="mb-5 mt-5">
+              <input
+                class="form-control form-control-lg"
+                type="text"
+                placeholder=""
+                aria-label=".form-control-lg example"
+                id="styled_text_area"
+                disabled
+                readonly
+              />
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <footer>
       <p>
         Copyright &copy;
