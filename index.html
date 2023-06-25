@@ -18,25 +18,6 @@
   </head>
   <body>
     <section>
-      <div class="container">
-        <span class="choose" id="choose">Wähle eine Schriftart</span>
-
-        <div class="dropdown">
-          <div class="select">
-            <span>Klick mich</span>
-            <i class="fa fa-chevron-left"></i>
-          </div>
-          <input type="hidden" name="Schriftart" />
-          <ul class="dropdown-menu">
-            <li value="Angelia" id="Angelia">1. Schriftart</li>
-            <li value="Greatings" id="Greatings">2. Schriftart</li>
-            <li value="Romance" id="Romance">3. Schriftart</li>
-          </ul>
-        </div>
-
-        <span class="msg"></span>
-      </div>
-
       <div class="container text-center mt-5">
         <div class="mb-3">
           <input
@@ -49,7 +30,7 @@
 
         <div class="row">
           <div class="col-sm-12">
-            <div class="mb-5 mt-5">
+            <div class="mt-5">
               <input
                 class="form-control form-control-lg"
                 type="text"
@@ -63,6 +44,36 @@
           </div>
         </div>
       </div>
+      <div class="container">
+        <span class="choose" id="choose">Wähle eine Schriftart</span>
+
+        <div class="dropdown">
+          <div class="select d-flex justify-content-end">
+            <span></span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-chevron-down"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+              />
+            </svg>
+          </div>
+          <input type="hidden" name="Schriftart" />
+          <ul class="dropdown-menu">
+            <li value="Angelia" id="Angelia">1. Schriftart</li>
+            <li value="Greatings" id="Greatings">2. Schriftart</li>
+            <li value="Romance" id="Romance">3. Schriftart</li>
+          </ul>
+        </div>
+
+        <span class="msg"></span>
+      </div>
     </section>
     <footer>
       <p>
@@ -71,7 +82,7 @@
           document.write(new Date().getFullYear());
         </script>
         ,
-        <img id="logo" src="/logo/EW1.png" alt="" width="60" height="" />
+        <img id="logo" src="./logo/EW1.png" alt="" width="60" height="" />
       </p>
     </footer>
     <script
