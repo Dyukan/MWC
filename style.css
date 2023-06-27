@@ -42,7 +42,7 @@ body {
   height: 80vh;
 }
 section {
-  min-height: calc(80vh - 25px);
+  min-height: calc(80vh - 18px);
 }
 footer {
   text-align: center;
