@@ -10,6 +10,10 @@
   font-family: "Romance";
   src: url("./fonts/Sweet\ Romance.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Yoko";
+  src: url("./fonts/John\ Yoko.ttf") format("truetype");
+}
 #styled_text_area {
   height: 90%;
   font-size: calc(40px + 0.390625vw);
