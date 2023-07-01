@@ -10,10 +10,6 @@
   font-family: "Romance";
   src: url("./fonts/Sweet\ Romance.ttf") format("truetype");
 }
-@font-face {
-  font-family: "Yoko";
-  src: url("./fonts/John\ Yoko.ttf") format("truetype");
-}
 #styled_text_area {
   height: 90%;
   font-size: calc(40px + 0.390625vw);
@@ -43,14 +39,14 @@ body {
     rgba(231, 105, 203, 1) 35%,
     rgba(0, 212, 255, 1) 100%
   );
-  height: 80vh;
+  height: 90vh;
 }
 section {
-  min-height: calc(80vh - 18px);
+  min-height: calc(90vh - 29px);
 }
 footer {
   text-align: center;
-  
+  background-color: #999;
   color: #e2e2e2;
 }
 #logo {
