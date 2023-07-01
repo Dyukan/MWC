@@ -58,7 +58,7 @@ body {
   height: 90vh;
 }
 section {
-  min-height: calc(90vh - 29px);
+  min-height: calc(90vh - 18px);
 }
 footer {
   text-align: center;
