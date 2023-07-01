@@ -1,30 +1,37 @@
 @font-face {
   font-family: "Schriftart2";
-  src: url("./fonts/Schriftart2.ttf") format("truetype");
+  src: url("./fonts/Schriftart2.ttf") format("truetype"),
+    url("./fonts/Schriftart2.otf") format("opentype");
 }
 @font-face {
   font-family: "Schriftart3";
-  src: url("./fonts/Schriftart3.ttf") format("truetype");
+  src: url("./fonts/Schriftart3.ttf") format("truetype"),
+    url("./fonts/Schriftart3.otf") format("opentype");
 }
 @font-face {
   font-family: "Schriftart4";
-  src: url("./fonts/Schriftart4.ttf") format("truetype");
+  src: url("./fonts/Schriftart4.ttf") format("truetype"),
+    url("./fonts/Schriftart4.otf") format("opentype");
 }
 @font-face {
   font-family: "Schriftart5";
-  src: url("./fonts/Schriftart5.ttf") format("truetype");
+  src: url("./fonts/Schriftart5.ttf") format("truetype"),
+    url("./fonts/Schriftart5.otf") format("opentype");
 }
 @font-face {
   font-family: "Schriftart6";
-  src: url("./fonts/Schriftart6.ttf") format("truetype");
+  src: url("./fonts/Schriftart6.ttf") format("truetype"),
+    url("./fonts/Schriftart6.otf") format("opentype");
 }
 @font-face {
   font-family: "Schriftart7";
-  src: url("./fonts/Schriftart7.ttf") format("truetype");
+  src: url("./fonts/Schriftart7.ttf") format("truetype"),
+    url("./fonts/Schriftart7.otf") format("opentype");
 }
 @font-face {
   font-family: "Schriftart8";
-  src: url("./fonts/Schriftart8.ttf") format("truetype");
+  src: url("./fonts/Schriftart8.ttf") format("truetype"),
+    url("./fonts/Schriftart8.otf") format("opentype");
 }
 #styled_text_area {
   height: 90%;
