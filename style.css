@@ -1,14 +1,30 @@
 @font-face {
-  font-family: "Angelia";
-  src: url("./fonts/Angelia\ Beauty.ttf") format("truetype");
+  font-family: "Schriftart2";
+  src: url("./fonts/Schriftart2.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Greatings";
-  src: url("./fonts/Greating.ttf") format("truetype");
+  font-family: "Schriftart3";
+  src: url("./fonts/Schriftart3.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Romance";
-  src: url("./fonts/Sweet\ Romance.ttf") format("truetype");
+  font-family: "Schriftart4";
+  src: url("./fonts/Schriftart4.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Schriftart5";
+  src: url("./fonts/Schriftart5.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Schriftart6";
+  src: url("./fonts/Schriftart6.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Schriftart7";
+  src: url("./fonts/Schriftart7.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Schriftart8";
+  src: url("./fonts/Schriftart8.ttf") format("truetype");
 }
 #styled_text_area {
   height: 90%;
