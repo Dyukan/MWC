@@ -76,7 +76,6 @@
 #styled_text_area {
   height: 90%;
   font-size: calc(40px + 0.390625vw);
-
   text-indent: 20px;
   background: rgba(253, 252, 255, 0.25);
   border-radius: 16px;
@@ -84,6 +83,8 @@
   backdrop-filter: blur(7.4px);
   -webkit-backdrop-filter: blur(7.4px);
   border: 1px solid rgba(253, 252, 255, 0.38);
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #choose {
