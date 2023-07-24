@@ -33,6 +33,46 @@
   src: url("./fonts/Schriftart8.ttf") format("truetype"),
     url("./fonts/Schriftart8.otf") format("opentype");
 }
+@font-face {
+  font-family: "Schriftart9";
+  src: url("./fonts/Schriftart9.ttf") format("truetype"),
+    url("./fonts/Schriftart9.otf") format("opentype");
+}
+@font-face {
+  font-family: "Schriftart10";
+  src: url("./fonts/Schriftart10.ttf") format("truetype"),
+    url("./fonts/Schriftart10.otf") format("opentype");
+}
+@font-face {
+  font-family: "Schriftart11";
+  src: url("./fonts/Schriftart11.ttf") format("truetype"),
+    url("./fonts/Schriftart11.otf") format("opentype");
+}
+@font-face {
+  font-family: "Schriftart12";
+  src: url("./fonts/Schriftart12.ttf") format("truetype"),
+    url("./fonts/Schriftart12.otf") format("opentype");
+}
+@font-face {
+  font-family: "Schriftart13";
+  src: url("./fonts/Schriftart13.ttf") format("truetype"),
+    url("./fonts/Schriftart13.otf") format("opentype");
+}
+@font-face {
+  font-family: "Schriftart14";
+  src: url("./fonts/Schriftart14.ttf") format("truetype"),
+    url("./fonts/Schriftart14.otf") format("opentype");
+}
+@font-face {
+  font-family: "Schriftart15";
+  src: url("./fonts/Schriftart15.ttf") format("truetype"),
+    url("./fonts/Schriftart15.otf") format("opentype");
+}
+@font-face {
+  font-family: "Schriftart16";
+  src: url("./fonts/Schriftart16.ttf") format("truetype"),
+    url("./fonts/Schriftart16.otf") format("opentype");
+}
 #styled_text_area {
   height: 90%;
   font-size: calc(40px + 0.390625vw);
